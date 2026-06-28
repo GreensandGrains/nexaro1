@@ -42,10 +42,10 @@ function Reveal({
 /* ─────────────── Data ──────────────────────────────────────── */
 const HERO_IMAGES = [
   "https://ik.imagekit.io/gf5eyovtx/hero-minecraft.webp?w=1600&q=80&fit=crop",
-  "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=1600&q=80&fit=crop",
-  "https://images.unsplash.com/photo-1562408590-e32931084e23?w=1600&q=80&fit=crop",
+  "https://ik.imagekit.io/gf5eyovtx/pngtree-minecraft-style-garden-path-with-flowers-and-green-bushes-under-purple-image_21634598.webp?w=1600&q=80&fit=crop",
+  "https://ik.imagekit.io/gf5eyovtx/images.jfif?w=1600&q=80&fit=crop",
   "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1600&q=80&fit=crop",
-  "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=1600&q=80&fit=crop",
+  "https://ik.imagekit.io/gf5eyovtx/best-minecraft-dungeons-ready-to-fight-5flwofmgmdgpe6id.jpg?w=1600&q=80&fit=crop",
 ];
 const ANIMATED_WORDS = ["Deploy", "Scale", "Protect", "Monitor", "Automate"];
 
