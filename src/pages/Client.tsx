@@ -54,7 +54,7 @@ function ClientNavbar() {
             style={{ background: "linear-gradient(135deg, #10b981, #7c3aed)" }}>
             <CloudLightning className="w-4 h-4 text-white" />
           </div>
-          <span className="font-bold text-sm tracking-widest uppercase">Nexaro</span>
+          <span className="font-bold text-sm tracking-widest uppercase">Nexora</span>
         </Link>
 
         {/* Center links */}
@@ -75,8 +75,8 @@ function ClientNavbar() {
                 style={{ background: "rgba(8,8,14,0.98)", backdropFilter: "blur(20px)" }}>
                 {[
                   { icon: Server,    label: "VPS Plans" },
-                  { icon: HardDrive, label: "Dedicated Servers" },
-                  { icon: Globe,     label: "Global CDN" },
+                  { icon: HardDrive, label: "Minecraft Servers" },
+                  { icon: Globe,     label: "Web Service" },
                 ].map(({ icon: Icon, label }) => (
                   <Link key={label} to="/client" onClick={() => setStoreOpen(false)}
                     className="flex items-center gap-2 px-4 py-2 text-[11px] font-semibold uppercase tracking-widest text-gray-400 hover:text-white hover:bg-white/6 transition-all">
@@ -95,11 +95,13 @@ function ClientNavbar() {
 
         {/* Auth */}
         <div className="flex items-center gap-2">
-          <button onClick={() => transitionTo("/login")}
+          <button onClick={{() => {
+            window.location.href = "https://panel.nexoracloud.xyz/";}}
             className="flex items-center gap-1.5 px-4 py-1.5 rounded-lg border border-white/12 text-gray-300 hover:text-white hover:bg-white/6 transition-all text-[11px] font-semibold uppercase tracking-widest">
             <LogIn className="w-3 h-3" /> Login
           </button>
-          <button onClick={() => transitionTo("/login")}
+          <button onClick={{() => {
+            window.location.href = "https://panel.nexoracloud.xyz/";}}
             className="flex items-center gap-1.5 px-4 py-1.5 rounded-lg text-[11px] font-bold uppercase tracking-widest text-white transition-all hover:scale-105 shadow-[0_0_14px_rgba(16,185,129,0.4)]"
             style={{ background: "linear-gradient(135deg, #059669, #7c3aed)" }}>
             <UserPlus className="w-3 h-3" /> Register
@@ -451,12 +453,14 @@ export default function Client() {
               </p>
 
               <div className="flex flex-wrap items-center gap-4 mb-12 animate-fade-in-up" style={{ animationDelay: "0.3s" }}>
-                <button onClick={() => transitionTo("/login")}
+                <button onClick={{() => {
+            window.location.href = "https://panel.nexoracloud.xyz/";}}
                   className="inline-flex items-center gap-2 px-7 h-12 rounded-full text-sm font-bold uppercase tracking-widest text-white transition-all hover:scale-105 active:scale-95"
                   style={{ background: "linear-gradient(135deg, #10b981, #7c3aed)", boxShadow: "0 0 28px rgba(16,185,129,0.35)" }}>
                   Get Started <ArrowRight className="w-4 h-4" />
                 </button>
-                <button onClick={() => transitionTo("/login")}
+                <button onClick={{() => {
+            window.location.href = "https://panel.nexoracloud.xyz/";}}
                   className="inline-flex items-center gap-2 px-7 h-12 rounded-full border border-white/15 text-gray-300 hover:text-white hover:bg-white/5 text-sm font-semibold uppercase tracking-widest transition-all hover:scale-105 active:scale-95">
                   <LogIn className="w-4 h-4" /> Sign In
                 </button>
@@ -626,12 +630,14 @@ export default function Client() {
                 <p className="text-gray-400 text-sm">Create your account — first server live in under 30 seconds.</p>
               </div>
               <div className="flex flex-wrap items-center gap-3 shrink-0">
-                <button onClick={() => transitionTo("/login")}
+                <button onClick={{() => {
+            window.location.href = "https://panel.nexoracloud.xyz/";}}
                   className="inline-flex items-center gap-2 px-7 h-11 rounded-full text-sm font-bold uppercase tracking-widest text-white transition-all hover:scale-105"
                   style={{ background: "linear-gradient(135deg, #10b981, #7c3aed)", boxShadow: "0 0 22px rgba(16,185,129,0.35)" }}>
                   Register Free <ArrowRight className="w-4 h-4" />
                 </button>
-                <button onClick={() => transitionTo("/login")}
+                <button onClick={{() => {
+            window.location.href = "https://panel.nexoracloud.xyz/";}}
                   className="inline-flex items-center gap-2 px-7 h-11 rounded-full border border-white/15 text-gray-300 hover:text-white hover:bg-white/5 text-sm font-semibold uppercase tracking-widest transition-all">
                   <LogIn className="w-4 h-4" /> Sign In
                 </button>
@@ -643,7 +649,7 @@ export default function Client() {
         {/* ── Footer ────────────────────────────────────────────── */}
         <div className="border-t border-white/6 py-5 px-6" style={{ background: "rgba(6,6,10,0.8)" }}>
           <div className="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-3 text-[11px] text-gray-600">
-            <span>© 2025 Nexaro Cloud. All rights reserved.</span>
+            <span>© 2025 Nexora Cloud. All rights reserved.</span>
             <div className="flex gap-5">
               {["Privacy Policy", "Terms of Service", "Cookie Policy"].map(l => (
                 <a key={l} href="#" className="hover:text-gray-400 transition-colors">{l}</a>
