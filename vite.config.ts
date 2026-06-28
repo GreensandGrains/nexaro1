@@ -11,6 +11,6 @@ export default defineConfig({
   server: {
     host: "0.0.0.0",
     port: 8080,
-    allowedHosts: ["nexaro.up.railway.app"],
+    allowedHosts: ["nexaro.up.railway.app", "nexaro1-1.onrender.com"],
   },
 });
