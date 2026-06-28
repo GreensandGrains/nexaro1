@@ -630,13 +630,13 @@ export default function Client() {
                 <p className="text-gray-400 text-sm">Create your account — first server live in under 30 seconds.</p>
               </div>
               <div className="flex flex-wrap items-center gap-3 shrink-0">
-                <button onClick={{() => {
+                <button onClick={() => {
             window.location.href = "https://panel.nexoracloud.xyz/";}}
                   className="inline-flex items-center gap-2 px-7 h-11 rounded-full text-sm font-bold uppercase tracking-widest text-white transition-all hover:scale-105"
                   style={{ background: "linear-gradient(135deg, #10b981, #7c3aed)", boxShadow: "0 0 22px rgba(16,185,129,0.35)" }}>
                   Register Free <ArrowRight className="w-4 h-4" />
                 </button>
-                <button onClick={{() => {
+                <button onClick={() => {
             window.location.href = "https://panel.nexoracloud.xyz/";}}
                   className="inline-flex items-center gap-2 px-7 h-11 rounded-full border border-white/15 text-gray-300 hover:text-white hover:bg-white/5 text-sm font-semibold uppercase tracking-widest transition-all">
                   <LogIn className="w-4 h-4" /> Sign In
