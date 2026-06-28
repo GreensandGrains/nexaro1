@@ -41,7 +41,7 @@ function Reveal({
 
 /* ─────────────── Data ──────────────────────────────────────── */
 const HERO_IMAGES = [
-  "https://i.postimg.cc/tTgynVGh/hero-minecraft.webp?w=1600&q=80&fit=crop",
+  "https://ik.imagekit.io/gf5eyovtx/hero-minecraft.webp?w=1600&q=80&fit=crop",
   "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=1600&q=80&fit=crop",
   "https://images.unsplash.com/photo-1562408590-e32931084e23?w=1600&q=80&fit=crop",
   "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1600&q=80&fit=crop",
