@@ -95,12 +95,12 @@ function ClientNavbar() {
 
         {/* Auth */}
         <div className="flex items-center gap-2">
-          <button onClick={{() => {
+          <button onClick={() => {
             window.location.href = "https://panel.nexoracloud.xyz/";}}
             className="flex items-center gap-1.5 px-4 py-1.5 rounded-lg border border-white/12 text-gray-300 hover:text-white hover:bg-white/6 transition-all text-[11px] font-semibold uppercase tracking-widest">
             <LogIn className="w-3 h-3" /> Login
           </button>
-          <button onClick={{() => {
+          <button onClick={() => {
             window.location.href = "https://panel.nexoracloud.xyz/";}}
             className="flex items-center gap-1.5 px-4 py-1.5 rounded-lg text-[11px] font-bold uppercase tracking-widest text-white transition-all hover:scale-105 shadow-[0_0_14px_rgba(16,185,129,0.4)]"
             style={{ background: "linear-gradient(135deg, #059669, #7c3aed)" }}>
@@ -453,13 +453,13 @@ export default function Client() {
               </p>
 
               <div className="flex flex-wrap items-center gap-4 mb-12 animate-fade-in-up" style={{ animationDelay: "0.3s" }}>
-                <button onClick={{() => {
+                <button onClick={() => {
             window.location.href = "https://panel.nexoracloud.xyz/";}}
                   className="inline-flex items-center gap-2 px-7 h-12 rounded-full text-sm font-bold uppercase tracking-widest text-white transition-all hover:scale-105 active:scale-95"
                   style={{ background: "linear-gradient(135deg, #10b981, #7c3aed)", boxShadow: "0 0 28px rgba(16,185,129,0.35)" }}>
                   Get Started <ArrowRight className="w-4 h-4" />
                 </button>
-                <button onClick={{() => {
+                <button onClick={() => {
             window.location.href = "https://panel.nexoracloud.xyz/";}}
                   className="inline-flex items-center gap-2 px-7 h-12 rounded-full border border-white/15 text-gray-300 hover:text-white hover:bg-white/5 text-sm font-semibold uppercase tracking-widest transition-all hover:scale-105 active:scale-95">
                   <LogIn className="w-4 h-4" /> Sign In
