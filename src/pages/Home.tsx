@@ -43,7 +43,7 @@ function Reveal({
 const HERO_IMAGES = [
   "https://ik.imagekit.io/gf5eyovtx/hero-minecraft.webp?w=1600&q=80&fit=crop",
   "https://ik.imagekit.io/gf5eyovtx/pngtree-minecraft-style-garden-path-with-flowers-and-green-bushes-under-purple-image_21634598.webp?w=1600&q=80&fit=crop",
-  "https://ik.imagekit.io/gf5eyovtx/images.jfif?w=1600&q=80&fit=crop",
+  "https://ik.imagekit.io/gf5eyovtx/images.jfif",
   "https://ik.imagekit.io/gf5eyovtx/minecraft-dungeons-2-ideas-v0-4q1hic89j5fc1.webp?w=1600&q=80&fit=crop",
   "https://ik.imagekit.io/gf5eyovtx/best-minecraft-dungeons-ready-to-fight-5flwofmgmdgpe6id.jpg?w=1600&q=80&fit=crop",
 ];
@@ -375,9 +375,9 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-6">
           <Reveal className="text-center mb-16">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 border border-primary/30 text-primary text-xs font-semibold uppercase tracking-widest mb-4">
-              <Star className="w-3.5 h-3.5" /> Why Nexaro
+              <Star className="w-3.5 h-3.5" /> Why Nexora
             </div>
-            <h2 className="text-3xl md:text-5xl font-bold text-white mb-4">Why Choose Nexaro Cloud?</h2>
+            <h2 className="text-3xl md:text-5xl font-bold text-white mb-4">Why Choose Nexora Cloud?</h2>
             <p className="text-gray-400 max-w-xl mx-auto">Built from the ground up for developers who demand the best — no compromise, no excuses.</p>
           </Reveal>
 
@@ -408,7 +408,7 @@ export default function Home() {
                 <PrismSVG />
               </div>
               <div className="text-center">
-                <div className="text-lg font-bold text-white">Nexaro Core</div>
+                <div className="text-lg font-bold text-white">Nexora Core</div>
                 <div className="text-xs text-gray-400">Infrastructure Excellence</div>
               </div>
             </Reveal>
